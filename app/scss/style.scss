@@ -1,0 +1,19 @@
+@import 'header';
+@import 'global';
+@import 'footer';
+@import 'slider';
+@import 'vars';
+@import 'media';
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    font-size: 16px;
+}
