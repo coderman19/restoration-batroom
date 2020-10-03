@@ -1,5 +1,8 @@
 .section__header {
-    background-color: #666669;
+    background-color: #2f414b;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 
 .header__inner {
@@ -10,12 +13,14 @@
 }
 
 .header__logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: regular;
     color: #fff;
+    padding-left: 20px;
 }
 
 .header__menu {
+    padding-right: 20px;
     ul a {
         font-size: 18px;
         font-weight: normal;
@@ -24,7 +29,8 @@
         color: #fff;
         &:hover {
             transition: all .3s;
-            color: lime;
+            color: #a0f5e7;
+            font-weight: 500;
         }
     }
     a+a {
