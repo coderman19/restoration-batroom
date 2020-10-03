@@ -1,0 +1,110 @@
+.section__footer {
+    background-color: #263238;
+}
+
+.footer__content {
+    padding: 35px 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__content,
+.footer__copyright,
+.footer__menu,
+.social__icons {
+    color: #ccc;
+}
+
+.social__icons {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0;
+    &-title {
+        right: 10px;
+    }
+    & a {
+        color: #ccc;
+        padding: 5px 0;
+        & a:hover {
+            color: #0e3a99;
+            transition: all .3s;
+        }
+    }
+    .facebook {
+        position: relative;
+        &::before {
+            content: "\e901";
+            font-family: 'icomoon';
+            font-size: 18px;
+            color: #fff;
+            position: absolute;
+            left: -25px;
+            top: 3px;
+        }
+    }
+    .instagram {
+        position: relative;
+        &::before {
+            content: "\ea92";
+            font-family: 'icomoon';
+            font-size: 18px;
+            color: #fff;
+            position: absolute;
+            left: -25px;
+            top: 3px;
+        }
+    }
+    .whatsapp {
+        position: relative;
+        &::before {
+            content: "\ea93";
+            font-family: 'icomoon';
+            font-size: 18px;
+            color: #fff;
+            position: absolute;
+            left: -25px;
+            top: 3px;
+        }
+    }
+    .telegram {
+        position: relative;
+        &::before {
+            content: "\ea95";
+            font-family: 'icomoon';
+            font-size: 18px;
+            color: #fff;
+            position: absolute;
+            left: -25px;
+            top: 3px;
+        }
+    }
+}
+
+.footer__copyright {
+    padding: 10px 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+    color: #555;
+    background-color: #232323;
+}
+
+.footer__menu {
+    padding: 20px 0;
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0 20px;
+        & a {
+            padding: 5px 0;
+            color: #ccc;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
