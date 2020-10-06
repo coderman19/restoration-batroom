@@ -67,7 +67,7 @@ body {
 }
 
 .offer {
-    background-color: rgb(150, 148, 148);
+    background-color: rgb(250, 244, 244);
     padding: 60px 20px;
 }
 
@@ -88,17 +88,13 @@ body {
         padding: 25px 10px;
     }
     &-title {
-        font-size: 24px;
+        font-size: 28px;
         color: coral;
         padding: 20px 5px;
     }
     &-text {
         font-size: 22px;
         line-height: 28px;
-        color: khaki;
+        color: #ccc;
     }
-}
-
-.svg-inline--fa {
-    color: lawngreen;
 }

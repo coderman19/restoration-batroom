@@ -13,27 +13,46 @@
 }
 
 .header__logo {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: regular;
-    color: #fff;
-    padding-left: 20px;
+    color: yellow;
+    padding: 8px 0px 6px 10px;
+    text-transform: uppercase;
+    border: 1px solid yellow;
+    cursor: pointer;
+    &-span {
+        background-color: yellow;
+        padding: 8px 10px 6px 8px;
+        font-size: 24px;
+        color: #000;
+        font-weight: bold;
+        margin-left: 8px;
+    }
 }
 
 .header__menu {
-    padding-right: 20px;
+    // padding-right: 20px;
+    border: 1px solid yellow;
+    padding: 8px 0px 8px 0px;
+    ul {
+        margin: 0;
+        padding: 0;
+    }
     ul a {
         font-size: 18px;
         font-weight: normal;
         cursor: pointer;
         text-transform: uppercase;
         color: #fff;
+        padding: 8px 15px 8px 15px;
         &:hover {
-            transition: all .3s;
-            color: #a0f5e7;
-            font-weight: 500;
+            background-color: #fff;
+            transition: all .4s;
+            color: #000;
+            // padding: 9px 15px 8px 15px;
         }
     }
-    a+a {
-        margin-left: 30px;
-    }
+    // a+a {
+    //     margin-left: 30px;
+    // }
 }
