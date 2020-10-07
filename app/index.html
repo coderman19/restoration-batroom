@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Реставрация ванн</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -17,7 +17,7 @@
             <section class="section__header">
                 <div class="container">
                     <div class="header__inner">
-                        <a class="header__logo" href="#">
+                        <a class="header__logo  wow animate__fadeInLeft" data-wow-duration="3s" href="#">
                             Реставрация <span class="header__logo-span">ванн</span>
                         </a>
                         <div class="header__menu">
@@ -37,7 +37,7 @@
                     <div class="container">
                         <div class="promo__block">
                             <div class="promo__block-img" style="background-image: url(image/bg/img-slide-1.jpg);">
-                                <h1 class="promo__block-title">Реставрация ванн методом налива жидкого акрила</h1>
+                                <h1 class="promo__block-title wow slideInUp">Реставрация ванн методом налива жидкого акрила</h1>
                                 <p class="promo__block-text"> Мы более 5 лет занимаемся реставрацией ванн. <br> Есть огромный опыт работы, в разных <br> городах Дальнего Востока.</p>
                             </div>
                         </div>
@@ -155,13 +155,17 @@
         </div>
     </div>
 
-
+    <script>
+        new WOW().init();
+    </script>
 
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/wow.js"></script>
     <script src="js/libs.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

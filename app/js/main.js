@@ -1,0 +1,12 @@
+$(function() {
+
+
+
+
+
+
+
+    new WOW().init();
+
+
+});

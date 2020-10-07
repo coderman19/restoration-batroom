@@ -26,7 +26,8 @@ gulp.task('style', function() {
             'node_modules/normalize.css/normalize.css',
             'node_modules/slick-carousel/slick/slick.css',
             'node_modules/magnific-popup/dist/magnific-popup.css',
-            'node_modules/@fortawesome/fontawesome-free/css/all.css'
+            'node_modules/@fortawesome/fontawesome-free/css/all.css',
+            'node_modules/animate.css/animate.css'
         ])
         .pipe(concat('libs.min.css'))
         .pipe(cssmin())
@@ -36,9 +37,9 @@ gulp.task('style', function() {
 // конкатенация js файлов
 gulp.task('script', function() {
     return gulp.src([
-
             'node_modules/slick-carousel/slick/slick.js',
-            'node_modules/magnific-popup/dist/jquery.magnific-popup.js'
+            'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
+            'node_modules/wow.js/dist/wow.js'
         ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())
