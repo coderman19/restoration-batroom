@@ -47,40 +47,51 @@ body {
     }
 }
 
-.main__inner {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 40px 0;
-    &-text {
-        width: 50%;
-        display: block;
-        color: darkgrey;
-        padding: 5px 20px;
-        font-size: 28px;
-        line-height: 40px;
-    }
-    &-image {
-        width: 50%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        min-height: 400px;
+.main {
+    padding: 160px;
+    &__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 80px 0;
+        &-text {
+            width: 50%;
+            display: block;
+            color: darkgrey;
+            padding: 5px 20px;
+            font-size: 28px;
+            line-height: 40px;
+        }
+        &-image {
+            width: 50%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            min-height: 400px;
+        }
     }
 }
 
 .offer {
-    background-color: #aaa;
+    background-color: #222;
     padding: 60px 20px;
-}
-
-.offer__inner-title {
-    font-size: 48px;
-    color: green;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 10px 20px;
+    &__inner {
+        padding: 160px 0;
+        &-title {
+            width: 400px;
+            margin: 0 auto;
+            background-color: #222;
+            border: 1px solid yellow;
+            padding: 20px 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            h2 {
+                color: #fff;
+                font-size: 32px;
+                margin: 0;
+            }
+        }
+    }
 }
 
 .our__offer {
