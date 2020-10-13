@@ -24,6 +24,8 @@ body {
 .promo__block {
     color: #fff;
     padding: 160px 0;
+    // animation-name: anim-1;
+    // animation-duration: 3s;
     &-title {
         font-size: 40px;
         padding: 20px 15px;
@@ -98,4 +100,12 @@ body {
     }
 }
 
+// @keyframes anim-1 {
+//     0% {
+//         transform: translateX(-1000px);
+//     }
+//     100% {
+//         transform: translateX(0px);
+//     }
+// }
 @import 'media';
