@@ -1,0 +1,23 @@
+.feedback {
+    background-color: #828282;
+    padding: 40px;
+    &__section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid yellow;
+        background-color: #aaa;
+        &-title {
+            font-size: 38px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: green;
+            padding: 40px 10px;
+        }
+    }
+}
+
+// .feedback__section-title {}
+// .feedback__section-text {}
+// .feedback__section-phone {}
+// .feedback__phone-btn {}

@@ -4,6 +4,8 @@
 @import 'slider';
 @import 'fonts';
 @import 'vars';
+@import 'video';
+@import 'feedback';
 html {
     box-sizing: border-box;
 }
@@ -68,13 +70,13 @@ body {
 }
 
 .offer {
-    background-color: rgb(250, 244, 244);
+    background-color: #aaa;
     padding: 60px 20px;
 }
 
 .offer__inner-title {
     font-size: 48px;
-    color: sienna;
+    color: green;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -90,13 +92,13 @@ body {
     }
     &-title {
         font-size: 28px;
-        color: coral;
+        color: #ccc;
         padding: 20px 5px;
     }
     &-text {
         font-size: 22px;
         line-height: 28px;
-        color: #ccc;
+        color: #fff;
     }
 }
 
