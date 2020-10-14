@@ -9,8 +9,9 @@ a {
     list-style-type: none;
 }
 
-hr {
-    color: yellow;
+.border__section {
+    border: 1px solid yellow;
+    width: 100%;
 }
 
 // прижимаем footer к низу страницы
