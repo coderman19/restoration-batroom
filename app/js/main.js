@@ -1,4 +1,11 @@
 $(function() {
+    // burger-menu
+    const burger = document.querySelector('.burger');
+    burger.addEventListener('click', () => {
+        burger.classList.toggle('burger__active');
+    });
+
+
     $("#slider-item").slick({
         arrows: false,
         infinite: true,
@@ -19,6 +26,17 @@ $(function() {
     //         }
     //     });
     // });
+
+    $('.popup-modal').magnificPopup({
+        type: 'inline',
+        preloader: false,
+        focus: '#username',
+        modal: true
+    });
+    $(document).on('click', '.popup-modal-dismiss', function(e) {
+        e.preventDefault();
+        $.magnificPopup.close();
+    });
 
 
     wow = new WOW({

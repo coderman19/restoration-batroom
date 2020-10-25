@@ -1,5 +1,5 @@
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -11,7 +11,7 @@ a {
 
 .border__section {
     border: 1px solid yellow;
-    width: 100%;
+    max-width: 100%;
 }
 
 // прижимаем footer к низу страницы
