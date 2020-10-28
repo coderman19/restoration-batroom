@@ -499,6 +499,7 @@
                             .main__block-title {
                                 width: 300px;
                                 padding: 15px 5px;
+                                margin-bottom: 34px;
                                 h2 {
                                     font-size: 24px;
                                 }
@@ -523,16 +524,28 @@
                                     font-size: 14px;
                                 }
                             }
+                            // .feedback__section {
+                            //     width: 240px;
+                            //     padding: 0px 5px;
+                            //     margin: 0 auto;
+                            //     img {
+                            //         width: 24px;
+                            //         padding: 5px;
+                            //     }
+                            // }
                             .feedback {
+                                margin: 0;
                                 &__section {
-                                    align-items: center;
-                                    width: 240px;
-                                    margin: 0 auto;
+                                    width: 280px;
+                                    padding: 0px 10px;
                                     &-title h2 {
                                         font-size: 14px;
                                     }
-                                    &-phone {
-                                        padding-left: 10px;
+                                    // &-phone {
+                                    //     padding-left: 10px;
+                                    // }
+                                    & img {
+                                        width: 28px;
                                     }
                                 }
                             }
@@ -582,6 +595,25 @@
                                 margin: 0 auto;
                                 width: 200px;
                             }
+                            .main {
+                                &__inner {
+                                    max-width: 300px;
+                                    margin: 0 auto;
+                                    width: 100%;
+                                }
+                                &-image {
+                                    max-width: 300px;
+                                    margin: 0 auto;
+                                    width: 100%;
+                                }
+                            }
+                            .video__block {
+                                width: 260px;
+                                margin: 0 auto;
+                            }
+                            .video__block-title {
+                                width: 200px;
+                            }
                             .works__block-title {
                                 padding: 10px 5px;
                                 margin-bottom: 20px;
@@ -593,6 +625,20 @@
                             }
                             .works__block img {
                                 width: 260px;
+                            }
+                            .feedback__section {
+                                width: 240px;
+                                padding: 0px 5px;
+                                margin: 0 auto;
+                                img {
+                                    width: 24px;
+                                    padding: 5px;
+                                }
+                            }
+                            .footer__copyright {
+                                text-align: center;
+                                margin: 0 auto;
+                                font-size: 14px;
                             }
                         }
                         @media (max-width: 260px) {
