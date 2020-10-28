@@ -361,6 +361,15 @@
                             .social__icons .telegram::before {
                                 display: none;
                             }
+                            .works__block-title {
+                                padding: 10px 5px;
+                                margin-bottom: 20px;
+                                width: 340px;
+                                h2 {
+                                    color: #fff;
+                                    font-size: 28px;
+                                }
+                            }
                         }
                         @media (max-width: 540px) {
                             .header__logo {
@@ -437,6 +446,15 @@
                                     }
                                 }
                             }
+                            .works__block-title {
+                                padding: 20px 10px;
+                                margin-bottom: 20px;
+                                width: 300px;
+                                h2 {
+                                    color: #fff;
+                                    font-size: 28px;
+                                }
+                            }
                         }
                         @media (max-width: 480px) {
                             .offer__inner-title {
@@ -478,6 +496,22 @@
                             .social__icons .telegram::before {
                                 display: none;
                             }
+                            .main__block-title {
+                                width: 300px;
+                                padding: 15px 5px;
+                                h2 {
+                                    font-size: 24px;
+                                }
+                            }
+                            .works__block-title {
+                                padding: 10px 5px;
+                                margin: 0 auto;
+                                width: 300px;
+                                margin-bottom: 20px;
+                                h2 {
+                                    font-size: 24px;
+                                }
+                            }
                         }
                         @media (max-width: 360px) {
                             .offer__inner-title {
@@ -492,7 +526,7 @@
                             .feedback {
                                 &__section {
                                     align-items: center;
-                                    width: 280px;
+                                    width: 240px;
                                     margin: 0 auto;
                                     &-title h2 {
                                         font-size: 14px;
@@ -500,6 +534,20 @@
                                     &-phone {
                                         padding-left: 10px;
                                     }
+                                }
+                            }
+                            .main__block-title {
+                                width: 240px;
+                                padding: 15px 5px;
+                                margin-bottom: 20px;
+                                h2 {
+                                    font-size: 18px;
+                                }
+                            }
+                            .works__block-title {
+                                width: 240px;
+                                h2 {
+                                    font-size: 18px;
                                 }
                             }
                         }
@@ -529,6 +577,23 @@
                             .offer__inner-title h2 {
                                 font-size: 18px;
                             }
+                            .main__block-title {
+                                padding: 10px 5px;
+                                margin: 0 auto;
+                                width: 200px;
+                            }
+                            .works__block-title {
+                                padding: 10px 5px;
+                                margin-bottom: 20px;
+                                width: 180px;
+                                h2 {
+                                    color: #fff;
+                                    font-size: 18px;
+                                }
+                            }
+                            .works__block img {
+                                width: 260px;
+                            }
                         }
                         @media (max-width: 260px) {
                             .header__inner {
@@ -546,6 +611,47 @@
                             }
                             .our__offer {
                                 margin: 0 auto;
+                            }
+                            .offer__inner-title {
+                                width: 160px;
+                                margin: 0 auto;
+                                h2 {
+                                    font-size: 14px;
+                                }
+                            }
+                            // .works__block-title {
+                            //     padding: 10px 5px;
+                            //     margin-bottom: 20px;
+                            //     width: 240px;
+                            //     h2 {
+                            //         color: #fff;
+                            //         font-size: 18px;
+                            //     }
+                            // }
+                            .works__block img {
+                                width: 180px;
+                            }
+                            .main__block-title {
+                                width: 180px;
+                                padding: 5px 5px;
+                                h2 {
+                                    font-size: 14px;
+                                }
+                            }
+                            .feedback__section {
+                                width: 180px;
+                                padding: 0px 5px;
+                                margin: 0 auto;
+                                img {
+                                    width: 24px;
+                                    padding: 5px;
+                                }
+                            }
+                            .video__block-title {
+                                width: 140px;
+                                margin: 0 auto;
+                                font-size: 14px;
+                                margin-bottom: 10px;
                             }
                         }
                     }
