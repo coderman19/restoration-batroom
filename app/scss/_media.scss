@@ -17,6 +17,9 @@
                                 font-size: 16px;
                             }
                         }
+                        .burger__active-menu {
+                            display: none;
+                        }
                         .slider-big {
                             margin-top: 60px;
                         }
@@ -149,6 +152,9 @@
                             }
                             .burger__line {
                                 height: 2px;
+                            }
+                            .burger__active .burger__active-menu {
+                                display: block;
                             }
                             .promo__block {
                                 padding: 40px 0;

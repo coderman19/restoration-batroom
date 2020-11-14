@@ -96,3 +96,14 @@
 .burger__active .burger__line-third {
     transform: translateY(-50%) rotate(-45deg);
 }
+
+.burger__active .burger__active-menu {
+    position: relative;
+    right: 3px;
+    color: #fff!important;
+    font-size: 18px;
+    padding: 80px 15px 5px 5px;
+    width: 100%;
+    width: 100px;
+    z-index: 120;
+}
